@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # Importar módulos creados
-from app import upload, preprocesamiento, modelos, evaluacion, informe
+from . import upload, preprocesamiento, modelos, evaluacion, informe
 
 # Configuración de la página
 st.set_page_config(page_title="Plataforma de Análisis Predictivo", layout="wide")
